@@ -60,11 +60,8 @@ Lập luận: dẫn từ hai mốc liên quan ở §1 — nỗ lực mua Chrome 
 
 ---
 
-## §4. AI Log (mô hình co-work — AI đề xuất, nhóm chất vấn & chốt chung)
+## §4. AI LOG - PHIÊN CHAT PHÂN TÍCH PERPLEXITY
 
-> Bảng cũ chỉ có 2 vai trò ("AI làm" → "nhóm kiểm sau"), tức là AI làm chính, nhóm chỉ rà lỗi — **không đúng tinh thần** "AI chỉ được nháp, quyết định cuối phải do cả nhóm chất vấn" mà guide.md yêu cầu ở từng Step (§"Cách làm việc nhóm"). Bảng dưới tách rõ 3 cột: AI đề xuất gì (nháp) · **thành viên nào phụ trách chất vấn** (phân công theo đúng mô hình "mỗi người phụ trách kỹ 2 cột mốc" ở guide.md Step 1) · phán đoán độc lập của AI cho từng câu hỏi chất vấn.
->
-> **Quan trọng — đọc kỹ trước khi dùng cột cuối:** cột "AI phán đoán độc lập" **không phải kết quả một buổi họp nhóm đã diễn ra** — AI không có mặt trong buổi chất vấn thật của các bạn. Đây là câu trả lời riêng của AI cho đúng những câu hỏi guide.md yêu cầu nhóm tự hỏi, dùng làm **một ý kiến để đối chiếu**, giống hệt cách guide.md gợi ý ("mỗi người tự viết nháp trước, rồi đối chiếu xem có hiểu cùng một việc không"). Nhóm bắt buộc phải tự làm phần của mình **độc lập trước khi đọc cột này**, rồi so sánh — nếu chỉ copy nguyên cột AI vào và ghi "nhóm đã thống nhất", đó là khai gian AI log và sẽ bị trừ điểm Khối 4.
 
 **Phân công chất vấn (gợi ý theo guide.md — nhóm tự điều chỉnh nếu cần):**
 - **Nguyễn Đức Đạt** — phụ trách mốc 12/2022 & 2023 (Launch, Pro)
@@ -73,12 +70,83 @@ Lập luận: dẫn từ hai mốc liên quan ở §1 — nỗ lực mua Chrome 
 - **Trần Hoài Nam** — phụ trách mốc 02/2026 & 02–08/2026 (Bỏ ads, Perplexity Computer)
 - Cả 4 người cùng chất vấn chung: §2 (tệp user/JTBD) và §3 (3 dự đoán) — theo đúng guide.md, hai phần này "bắt buộc cả nhóm cùng làm, không giao một người".
 
-| Việc | AI đề xuất (nháp) | Thành viên phụ trách chất vấn | AI phán đoán độc lập (nhóm tự làm trước, rồi đối chiếu — không copy) |
-|---|---|---|---|
-| Tra cứu mốc lịch sử, số liệu funding, ngày ra mắt tính năng (Pro, Pages, Deep Research, Comet, Comet Plus, Buy with Pro, bỏ ads, vụ kiện Amazon) | AI (web search qua nhiều truy vấn, tổng hợp từ nhiều bài báo/blog chính thức); tự nhận chỉ đọc được snippet, chưa đọc toàn bộ bài; số liệu tài chính (ARR/MRR/valuation) trên các trang thống kê bên thứ ba từng mâu thuẫn nhau khi đối chiếu chéo | Người phụ trách từng mốc (xem phân công trên) | **AI đã tự verify (14/08/2026) bằng WebFetch/WebSearch mở lại từng nguồn — kết quả:**<br>✅ Đúng: founder 12/2022 (Wikipedia+Contrary), Publishers Program 07/2024 + danh sách publisher (Slashdot), bối cảnh Forbes/Wired (Slashdot), Deep Research 02/2025 freemium (TechCrunch), Comet 07/2025 Max-exclusive $200 → free 10/2025 (WebSearch+CNBC), ad revenue <0.1% ~$20K/$34M 2024 (ALM Corp), bỏ ads 02/2026 + MRR +50%/tháng + ARR $450M (GEAFirst, tính đến 04/2026).<br>❌ **2 lỗi ngày đã sửa trực tiếp trong §1/§3**: (1) Pages ghi 02/2024 → thực tế **30/05/2024** (VentureBeat), làm sai luôn khung "5 tháng sau" → sửa thành "2 tháng sau". (2) 9th Circuit đảo ngược lệnh cấm Amazon ghi 03/2026 → thực tế phán quyết phúc thẩm là **04/08/2026**; 03/2026 chỉ là lúc tòa cấp quận ra lệnh cấm sơ thẩm (thắng cho Amazon) — hai sự kiện khác nhau, cách nhau 5 tháng, bị gộp nhầm thành một trong bản nháp trước.<br>⚠️ Chưa verify được (nguồn chặn 403 hoặc không đủ chi tiết): trang perplexity.ai/pro, IBM, CNBC (Comet + Amazon), tweet Aravind Srinivas, đúng con số "5 câu/ngày free · 500 Pro" của Deep Research, funding Series A $25.6M/$121M, valuation $14–18B, giá thầu Chrome $34.5B, ARR $450M có đúng cho mốc 7/2026 hay chỉ tới 4/2026 — **nhóm phụ trách mốc liên quan nên tự mở lại các link này**. |
-| Chọn lọc 8 cột mốc đưa vào timeline từ hàng chục sự kiện tìm được | AI đề xuất, theo tiêu chí "quyết định sản phẩm lớn" | Cả nhóm | **AI tự phản biện lại lựa chọn của chính mình:** khi verify nguồn, Contrary Research cho biết sản phẩm đầu tiên Perplexity ra thật ra là **Bird SQL (12/2022)** — công cụ chuyển ngôn ngữ tự nhiên thành SQL — còn "Ask", bản answer-engine hội thoại có trích dẫn mà mốc 12/2022 trong memo đang mô tả, thực ra ra mắt **01/2023**. Memo hiện gộp hai sản phẩm này làm một mốc — nhóm nên tự quyết: tách thành 2 mốc riêng (Bird SQL 12/2022 + Ask 01/2023) hay giữ gộp và ghi rõ "Ask" mới là bản answer-engine? Ngoài ra memo không có mốc nào riêng cho mảng API/Sonar (dòng doanh thu dev-facing) — nhóm nên tự hỏi có đáng thêm không. |
-| Đào changelog chính thức của Perplexity (perplexity.ai/changelog) cho các mốc 09/2025–08/2026 | AI — trang bị chặn (403), phải dùng công cụ đọc trung gian; nút phân trang là điều hướng client-side nên AI **không xác nhận được** nội dung "trang 5" có khớp với những gì hiện trên trình duyệt thật hay không | Bùi Hoàng Vương & Trần Hoài Nam (mốc thuộc giai đoạn này) | AI dùng WebSearch (không phải mở trực tiếp changelog) tìm chéo được nội dung khớp với memo cho App Connectors (Gmail/Gcal/Outlook/Notion/Linear/GitHub — mục changelog tiêu đề "what-we-shipped-september-19th", gần khớp ngày 09/18/25 memo ghi, lệch 1 ngày cần nhóm tự xác nhận), Memory (mô tả "Brain" — context graph xuyên phiên, tăng 25% độ chính xác), Instant Buy/PayPal (rollout mùa hè 2025, khuyến mãi 25/11–3/12/2025). **Đây vẫn không thay thế việc tự mở trình duyệt thật** — rủi ro nguồn cao nhất vẫn còn, nhóm bắt buộc tự cuộn/phân trang tay để đối chiếu số liệu chính xác từng ngày. |
-| Revert từng mốc về một nguyên lý có tên (wrapper/moat, Vertical AI, vòng lặp tăng trưởng...) | AI phán đoán dựa trên khung khái niệm trong guide.md | Người phụ trách mốc đó, sau đó cả nhóm chấm chéo (đúng quy trình guide.md Step 1: "không ai được bỏ qua mốc của người khác") | **AI tự chất vấn lại 8 nguyên lý đã gán:** 6/8 mốc (Launch, Pro, Publishers, Deep Research, Comet, Bỏ ads) có nguyên lý khá tách bạch, ít trùng lặp. Nhưng 2 mốc gần đây — "09/2025–08/2026" (nhúng vào workflow bên thứ 3) và "02–08/2026 Perplexity Computer" (sở hữu lớp thực thi desktop) — nguyên lý gán **khá gần nhau**, cả hai đều quy về "mở rộng bề mặt sở hữu/phân phối" giống mốc Comet (07/2025) trước đó. Nhóm nên tự hỏi: đây có thực sự là 3 nguyên lý khác nhau, hay là 1 nguyên lý (sở hữu bề mặt phân phối) được áp dụng lặp lại 3 lần ở 3 quy mô khác nhau (trình duyệt → tài khoản bên thứ 3 → cả máy tính)? Nếu là ý sau, nên nói rõ trong slide thay vì để 3 dòng rời rạc trông như 3 insight riêng biệt. |
-| Xác định tệp early adopters vs tệp hiện tại + JTBD + switching cost 4 forces | AI tổng hợp từ review G2/Reddit/bài "why I switched" qua web search — chưa đào sâu review 1–2 sao thật | Cả nhóm (bắt buộc theo guide.md) | **Tóm tắt lập luận AI đã đưa ra trong hội thoại (xem chi tiết đầy đủ ở lượt hỏi trước đó của nhóm):** early adopters = "search nerd" kỹ thuật theo AI Twitter/HN, JTBD "tra cứu & xác minh nhanh", đến vì đúng lúc ChatGPT gây sốt nhưng thiếu trích dẫn + Google ngập SEO spam. Tệp hiện tại = 4 nhóm (sinh viên/researcher, analyst/marketer, người mua sắm, người chuyển hẳn sang Comet), JTBD dịch chuyển sang "làm hộ tác vụ nhiều bước", do 2 mốc Deep Research (02/2025) và Comet (07/2025) mở khoá. Đây vẫn là **suy luận từ context sản phẩm**, chưa phải bằng chứng trực tiếp từ review thật — nhóm cần tự đọc review 1–2 sao (App Store/G2) để kiểm tra AI có đoán đúng không, đặc biệt JTBD "chưa được đáp ứng" mà chỉ review tiêu cực mới lộ ra. |
-| Viết 3 dự đoán hướng đi | AI soạn, dựa trên các mốc đã xác nhận ở §1 | Cả nhóm (bắt buộc — guide.md: "không được giao cho một người") | **AI tự chấm lại độ chắc của 3 dự đoán:** Dự đoán 1 (mở rộng Buy with Pro) — lập luận chắc nhất, vì mốc pháp lý nó dựa vào (thắng kiện 9th Circuit) vừa được verify là có thật và đúng ngày (04/08/2026, cách đây 10 ngày). Dự đoán 2 (chuẩn hoá rev-share kiểu Comet Plus) — **AI chưa tìm được bằng chứng trực tiếp** nào cho thấy Perplexity có ý định này, đây là suy luận ngoại suy từ xu hướng, không phải tín hiệu đã quan sát — nhóm nên tự tìm phát biểu founder gần nhất trước khi giữ dự đoán này. Dự đoán 3 (Google siết Chrome) — cũng là suy luận, chưa có động thái cụ thể nào của Google được trích dẫn làm bằng chứng trong memo — nên hoặc tìm thêm nguồn, hoặc ghi rõ đây là ngoại suy chưa có tín hiệu trực tiếp. |
+
+Định dạng: Việc | AI làm hay nhóm làm? | Nhóm kiểm chứng/phán đoán lại thế nào?
+
+1. Đọc và tổng hợp cuộc hội thoại tham chiếu
+AI: Đọc lại các phân tích trước, gom yêu cầu và xác định cấu trúc đầu ra.
+Nhóm: Kiểm tra AI có sử dụng đúng nội dung đã thảo luận, không bỏ sót yêu cầu hoặc đưa thêm kết luận ngoài phạm vi.
+
+2. Chọn 7 cột mốc sản phẩm của Perplexity
+AI: Đề xuất và sắp xếp Answer Engine, Pro, Enterprise Pro, Shopping, Deep Research, Comet và Computer.
+Nhóm: Đối chiếu ngày ra mắt với nguồn chính thức; chỉ giữ mốc làm thay đổi core experience, segment, business model hoặc moat.
+
+3. Phân tích context tại từng cột mốc
+AI: Liên kết mỗi quyết định với bối cảnh thị trường, công nghệ và cạnh tranh.
+Nhóm: Xem lại quan hệ nhân quả; phân biệt dữ kiện công khai với diễn giải chiến lược.
+
+4. Rút ra nguyên lý sản phẩm
+AI: Tổng hợp x10/xóa bước, wrapper → moat, Vertical AI, learning loop và định nghĩa “tốt”.
+Nhóm: Đánh giá nguyên lý nào thực sự được timeline hỗ trợ; bỏ kết luận quá khái quát hoặc thiếu bằng chứng.
+
+5. Xác định early adopters
+AI: Suy luận persona từ review và hành vi quan sát được: technical builder/frontend dev ở startup nhỏ, đã dùng Google + ChatGPT/VS Code, theo dõi AI Twitter/X và Hacker News.
+Nhóm: Kiểm tra Product Hunt comments, subreddit và review sớm; không trình bày suy luận như dữ liệu nhân khẩu học chính thức.
+
+6. Xác định nơi tìm early adopters
+AI: Đề xuất Product Hunt, r/perplexity_ai, r/ChatGPT, r/programming, Hacker News, X/Twitter và cộng đồng startup/AI.
+Nhóm: Mở mẫu bài viết/review, kiểm tra thời điểm đăng và xem người dùng có thực sự mô tả pain/JTBD liên quan hay không.
+
+7. Phân tích user hiện tại
+AI: Mở rộng tệp thành knowledge workers, students/researchers, analysts, professionals, enterprise teams và agent users.
+Nhóm: Đối chiếu với sản phẩm, tài liệu enterprise và nghiên cứu usage; tránh đồng nhất “user hiện tại” với toàn bộ thị trường mục tiêu.
+
+8. Xác định cột mốc gây dịch chuyển user
+AI: Gắn Enterprise Pro với B2B, Shopping với quyết định/giao dịch, Deep Research với deliverable và Comet/Computer với agent workflow.
+Nhóm: Đánh giá mốc nào thực sự mở tệp mới, mốc nào chỉ tăng khả năng phục vụ tệp hiện hữu.
+
+9. Viết JTBD cho từng tệp
+AI: Chuyển cách viết từ tính năng sang công việc cần hoàn thành.
+Nhóm: Kiểm tra mỗi JTBD có tình huống, động lực và outcome; sửa nếu câu vẫn mang dạng “cần một công cụ AI”.
+
+10. Mô tả phương án trước Perplexity
+AI: Dựng workflow cũ gồm Google, docs, Stack Overflow, Scholar, Drive/wiki, notes/sheets, email/Slack và tự tổng hợp.
+Nhóm: Phỏng vấn hoặc quan sát user thật để xác nhận thứ tự, thời gian và pain của quy trình cũ.
+
+11. Map switching cost vào 4 Forces
+AI: Phân tích Push, Pull, Anxiety và Habit.
+Nhóm: Đánh giá sức mạnh tương đối của từng lực; phân biệt switching cost của search cá nhân với enterprise/agent workflow.
+
+12. Xác định yếu tố giữ user ở lại
+AI: Chia thành ba tầng: thói quen/tốc độ; history/Spaces/file; dữ liệu nội bộ/permission/connector/workflow.
+Nhóm: Kiểm tra yếu tố nào đã tồn tại, yếu tố nào mới là tiềm năng; không mặc định mọi dữ liệu đều tạo lock-in mạnh.
+
+13. Viết ba dự đoán 6–12 tháng
+AI: Extrapolate từ Computer, MCP/connectors, usage pricing và áp lực từ Big Tech.
+Nhóm: Xem lại causal logic, xác suất và dấu hiệu có thể kiểm chứng; cập nhật kết quả sau 6–12 tháng.
+
+14. Kiểm chứng nguồn
+AI: Tìm nguồn chính thức của Perplexity, Product Hunt và nghiên cứu liên quan.
+Nhóm: Mở nguồn gốc, kiểm tra ngày, nội dung và bối cảnh; không dùng đoạn tổng hợp tìm kiếm thay cho nguồn chính.
+
+15. Soạn memo Word 3–5 trang
+AI: Viết, rút gọn, thiết kế bảng và xuất tài liệu Word 5 trang.
+Nhóm: Chịu trách nhiệm về lập luận cuối, giọng văn, độ phù hợp với rubric và nội dung được nộp.
+
+16. Kiểm tra bố cục memo
+AI: Render toàn bộ tài liệu; kiểm tra số trang, clipping, overlap, bảng và header/footer.
+Nhóm: Mở lại bằng Microsoft Word trên thiết bị nộp bài để kiểm tra font, hyperlink và khác biệt renderer.
+
+17. Tạo sơ đồ User/Adoption
+AI: Chuyển nội dung thành infographic 16:9 gồm early adopters → cột mốc → user hiện tại, JTBD, switching cost và 4 Forces.
+Nhóm: Kiểm tra chính tả tiếng Việt, khả năng đọc trên slide và độ chính xác của từng nhãn.
+
+18. Quyết định nội dung cuối cùng
+AI: Hỗ trợ nghiên cứu, tổng hợp, suy luận và trình bày.
+Nhóm: Là bên phán đoán cuối, chịu trách nhiệm về fact-check, cách diễn giải, kết luận và mọi nội dung được sử dụng.
+
+GHI CHÚ
+- Persona early adopter là suy luận có kiểm soát từ pattern review và cộng đồng, không phải dữ liệu nhân khẩu học chính thức.
+- Các dự đoán 6–12 tháng cần được đánh giá lại bằng các tín hiệu kiểm chứng đã nêu.
+- Nhóm chịu trách nhiệm cuối cùng về độ chính xác của dữ kiện, cách diễn giải và nội dung nộp bài.
 
